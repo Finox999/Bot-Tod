@@ -80,6 +80,7 @@ const samih = JSON.parse(fs.readFileSync('./datauser/simi.json'))
 const ban = JSON.parse(fs.readFileSync('./datauser/banned.json'))
 const _limit = JSON.parse(fs.readFileSync('./datauser/limit.json'));
 const uang = JSON.parse(fs.readFileSync('./datauser/uang.json'));
+const configs = JSON.parse(fs.readFileSync('./config.json'))
 const vcard = 'BEGIN:VCARD\n' //jangan ganti eror jngn nyesel
             + 'VERSION:3.0\n' //biarin aja eror jngn nyesel
             + 'FN:Mr F\n' //ganti aja 
@@ -89,23 +90,23 @@ const vcard = 'BEGIN:VCARD\n' //jangan ganti eror jngn nyesel
 //👇*** jangan di ganti ***👇\\ 
 //ganti auto error
 function _0x4503(){const _0x34ea80=['70344lfhuRs','1892804ZxjSSK','132OvXxLz','•\x20Hexagonz(base)\x0a•\x20Baileys\x0a•\x20Finx999(pengembang)\x0a•\x20All\x20My\x20friend>//<','2085669jYzyrY','7qhNius','437556EcekTp','1yoAVlh','4350ayknaW','15275yjWRwa','3751CwWZba','3856336OEqYYw'];_0x4503=function(){return _0x34ea80;};return _0x4503();}const _0x29dc59=_0x2d9b;(function(_0x4e7ef1,_0x28188d){const _0x3dcdb=_0x2d9b,_0x1e2269=_0x4e7ef1();while(!![]){try{const _0x49af7d=-parseInt(_0x3dcdb(0x8b))/0x1*(parseInt(_0x3dcdb(0x84))/0x2)+-parseInt(_0x3dcdb(0x8a))/0x3+parseInt(_0x3dcdb(0x85))/0x4+-parseInt(_0x3dcdb(0x81))/0x5*(parseInt(_0x3dcdb(0x86))/0x6)+parseInt(_0x3dcdb(0x89))/0x7*(parseInt(_0x3dcdb(0x83))/0x8)+-parseInt(_0x3dcdb(0x88))/0x9+-parseInt(_0x3dcdb(0x8c))/0xa*(parseInt(_0x3dcdb(0x82))/0xb);if(_0x49af7d===_0x28188d)break;else _0x1e2269['push'](_0x1e2269['shift']());}catch(_0x1713cb){_0x1e2269['push'](_0x1e2269['shift']());}}}(_0x4503,0x4fd15));function _0x2d9b(_0xcfd28b,_0x50a14b){const _0x4503e6=_0x4503();return _0x2d9b=function(_0x2d9b2e,_0x288bee){_0x2d9b2e=_0x2d9b2e-0x81;let _0x3052d2=_0x4503e6[_0x2d9b2e];return _0x3052d2;},_0x2d9b(_0xcfd28b,_0x50a14b);}const thanksTo=_0x29dc59(0x87);
- limitawal = 25 //Ganti aja
- memberlimit = 25 //Ganti aja
-hargalimit = '1000' //Ganti aja
+ limitawal = configs.limitCount //Ganti aja
+ memberlimit = configs.memberLimit //Ganti aja
+hargalimit = configs.hargaLimit //Ganti aja
 banChats = true //Jangan di ganti
 offline = false //Jangan di ganti
 blocked = [] //jangan di ganti
-targetpc = '6288210964298' //Ganti aja
-ownerNumber = '6288210864298' //Ganti aja
-namaBot = `Python Bot` //Ganti aja
-namaOwner = `Finx999` //Ganti aja
-fake = '𝙿𝚈𝚃𝙷𝙾𝙽 𝙱𝙾𝚃菲诺'
-namaig = `Instagram.com/finoooooo_` //ganti nama lu 
+targetpc = configs.ownerNumber //Ganti aja
+ownerNumber = configs.ownerNumber //Ganti aja
+namaBot = configs.botname //Ganti aja
+namaOwner = configs.ownerName //Ganti aja
+fake = configs.fake
+namaig = 'instagram.com/'+configs.igName //ganti nama lu 
 numbernye = '0'//Jangan di ganti
 waktu = '-' //Jangan di ganti
 alasan = '-' //Jangan di ganti
-namabot = 'python bot V.3.4.2' //Ganti jdi nama bot lu
-lolkey = 'isi_apikey_lolhuman_lu'
+namabot = configs.botname //Ganti jdi nama bot lu
+lolkey = configs.lolkey
 baterai = {     //  {
     baterai: 0,  // { - jangan di ganti ntr rusak
     cas: false   // {
