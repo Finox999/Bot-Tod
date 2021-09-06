@@ -51,7 +51,7 @@ SC NYA JANGAN DI JUAL NGENTOD
  * [`HEXAGONZ`](https://github.com/Hexagonz)
 
 # Contact Me
-* [`Whatsapp`](https://wa.me/6288210864298)
+* [`Whatsapp`](https://wa.me/+6288210864298)
 * [`Instagram`](https://instagram.com/finoooooo_)
 * [`Telegram`](https://t.me/Jeruklokal92)
 
