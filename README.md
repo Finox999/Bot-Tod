@@ -39,16 +39,16 @@ SC NYA JANGAN DI JUAL NGENTOD
 * 3.Scan di whatsapp yg ingin di jadikan nomer bot
 * Selesai
 
-# Cara edit owner number
+# Cara edit bot
 * Download aplikasi Acode [`Disini`](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) bebas si yg mana aja yg penting text editor)
-* Buka file index.js
-* Ke line 72,ganti nomer kalian
-* Untuk beli apikey lolhuman,klik di [`Sini`](https://api.lolhuman.xyz)
+* Buka file `config.json`
+* Untuk mendapatkan apikey lolhuman, registrasi dengan klik di [`Sini`](https://api.lolhuman.xyz)
 
 #THANKS TO
 
  * [`@Adiwajshing/baileys`](https://github.com/Adiwajshing/baileys)
  * [`HEXAGONZ`](https://github.com/Hexagonz)
+ * [`Dvnz99`](https://github.com/dvnz99)
 
 # Contact Me
 * [`Whatsapp`](https://wa.me/+6288210864298)
