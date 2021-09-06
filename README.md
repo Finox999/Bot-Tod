@@ -1,5 +1,5 @@
 #Bot-Tod 
-* Made in [`Finx999`](github.com/Finx999)
+* Made with ♥️ By[`Finx999`](github.com/Finox999)
 
 SC NYA JANGAN DI JUAL NGENTOD
 
